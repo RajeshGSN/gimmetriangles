@@ -1,0 +1,10 @@
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\bin\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.deps.json
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\bin\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.dll
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\bin\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.pdb
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.AssemblyInfoInputs.cache
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.AssemblyInfo.cs
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.csproj.CoreCompileInputs.cache
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.dll
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.pdb
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Models\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.csproj.AssemblyReference.cache

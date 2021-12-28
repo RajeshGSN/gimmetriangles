@@ -1,0 +1,13 @@
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\bin\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.deps.json
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\bin\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.dll
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\bin\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.pdb
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\bin\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.dll
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\bin\Debug\netcoreapp3.1\Api.GimmeTriangles.Models.pdb
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.csproj.AssemblyReference.cache
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.AssemblyInfoInputs.cache
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.AssemblyInfo.cs
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.csproj.CoreCompileInputs.cache
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.csproj.CopyComplete
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.dll
+C:\Users\GRajesh\Documents\GitHub\gimmetriangles\GimmeTriangles\Api.GimmeTriangles.Services\obj\Debug\netcoreapp3.1\Api.GimmeTriangles.Services.pdb
