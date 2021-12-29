@@ -16,10 +16,12 @@ namespace Api.GimmeTriangles
     public class TrianglesController : Controller
     {
         private readonly IGenerateShapesService _generateShapesService;
+        private readonly ICellDetailsService _cellDetailsService;
 
-        public TrianglesController(IGenerateShapesService generateShapesService)
+        public TrianglesController(IGenerateShapesService generateShapesService, ICellDetailsService cellDetailsService)
         {
             _generateShapesService = generateShapesService;
+            _cellDetailsService = cellDetailsService;
         }
         [HttpGet]
         public string test()
@@ -31,19 +33,18 @@ namespace Api.GimmeTriangles
         [Route("coordinates")]
         public JsonResult GetTriangles([FromBody] GridProperties request)
         {
-            IList<IShape> triangles = _generateShapesService.GenerateShapes(request.rows, request.columns, request.CellSize);
+            IGrid triangles = _generateShapesService.GenerateShapes(request.rows, request.columns, request.CellSize);
             return Json(triangles);
         }
 
         [HttpGet]
-        [Route("getcelldetails")]
-        public string GetCellDetails([FromBody] GridDetailsByVertices request)
+        [Route("celldetails")]
+        public JsonResult GetCellDetails([FromBody] GridDetailsByVertices request)
         {
-            IList<IShape> triangles = _generateShapesService.GenerateShapes(request.gridProperties.rows, request.gridProperties.columns, request.gridProperties.CellSize);
-            var check = triangles[0].coordinates[0].Equals(request.verticies[0]);
-            List<ICoordinates> verticis = request.verticies.ToList().ToList<ICoordinates>();
-            var cellName = triangles.AsEnumerable<IShape>().Where(t => t.coordinates.SequenceEqual(verticis)).FirstOrDefault().cellName;
-            return cellName;
+            IGrid grid = _generateShapesService.GenerateShapes(request.GridProperties.rows, request.GridProperties.columns, request.GridProperties.CellSize);
+            List<ICoordinates> verticis = request.Verticies.ToList().ToList<ICoordinates>();
+            var cellName = _cellDetailsService.GetCellDetailsFromGrid(grid, request.Verticies);
+            return Json(cellName);
         }
     }
 }

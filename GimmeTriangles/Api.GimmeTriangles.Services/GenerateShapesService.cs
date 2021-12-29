@@ -9,12 +9,12 @@ namespace Api.GimmeTriangles.Services
 {
     public class GenerateShapesService : IGenerateShapesService
     {
-        public IList<IShape> GenerateShapes(int rows, int columns, int cellSize)
+        public IGrid GenerateShapes(int rows, int columns, int cellSize)
         {
             IList<IShape> triangles = new List<IShape>();
             for (int i = 1; i <= rows; i++)
             {
-                for (int j = 1; j <= columns; j++)
+                for (int j = 1; j <= columns/2; j++)
                 {
                     IShape leftBottomTriangle = GetLeftBottomTriangle(i, j);
                     IShape rightTopTrinagle = GetRightTopTriangle(i, j);
@@ -22,14 +22,14 @@ namespace Api.GimmeTriangles.Services
                     triangles.Add(rightTopTrinagle);
                 }
             }
-            return triangles;
+            return new Grid { Shapes = triangles };
         }
 
         private IShape GetLeftBottomTriangle(int rowIndex, int colIndex)
         {
             IShape leftBottomTriangle = new Triangle
             {
-                cellName = Convert.ToChar(64 + rowIndex) + ""+ Convert.ToString(2*colIndex-1),
+                cellName = Convert.ToChar(64 + rowIndex) + "" + Convert.ToString(2 * colIndex - 1),
                 coordinates = new List<ICoordinates>
             {
                 new Coordinates { x = rowIndex, y = colIndex },
@@ -44,7 +44,7 @@ namespace Api.GimmeTriangles.Services
         {
             IShape rightTopTriangle = new Triangle
             {
-                cellName = Convert.ToChar(64 + rowIndex) + ""+ Convert.ToString(2 * colIndex),
+                cellName = Convert.ToChar(64 + rowIndex) + "" + Convert.ToString(2 * colIndex),
                 coordinates = new List<ICoordinates>
             {
                 new Coordinates { x = rowIndex, y = colIndex },

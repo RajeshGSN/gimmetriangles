@@ -9,7 +9,7 @@ namespace Api.GimmeTriangles
 {
     public class GridDetailsByVertices
     {
-        public GridProperties gridProperties { get; set; }
-        public Coordinates[] verticies { get; set; }
+        public GridProperties GridProperties { get; set; }
+        public Coordinates[] Verticies { get; set; }
     }
 }

@@ -9,14 +9,14 @@ namespace Api.GimmeTriangles.Services.Test
     public class GenerateShapesServiceTest
     {
         [TestMethod]
-        public void GenerateShapesTest()
+        public void GenerateShapesTest_With6RowsAnd12Columns()
         {
             int rows = 6;
-            int columns = 6;
+            int columns = 12;
             int cellSize = 1;
             var service = new GenerateShapesService();
             var triangles = service.GenerateShapes(rows, columns, cellSize);
-            Assert.AreEqual(triangles.Count, 72);
+            Assert.AreEqual(triangles.Shapes.Count, 72);
         }
     }
 }

@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Api.GimmeTriangles.Services.Interfaces
 {
-    public interface IGenerateShapesService
+    public interface ICellDetailsService
     {
-        IGrid GenerateShapes(int rows,int columns, int cellSize);
+        public ICellDetails GetCellDetailsFromGrid(IGrid grid, ICoordinates[] verticies);
     }
 }
